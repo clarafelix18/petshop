@@ -1,117 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Nona Pets  🎀</title>
-
+    <title>Sistema de gerenciamento de Pet Shop</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-
 <body>
-
     <div class="login-card">
-
-        <div class="bow">🎀</div>
-
-        <p class="top-text">♡ seja bem-vindo(a) ♡</p>
-
-        <h2>Nona Pets</h2>
-
-        <p class="subtitle">
-            Um carinho especial para o seu melhor amigo 🐾
-        </p>
-
-        <div class="divider">
-            ୨୧ ───────── ୨୧
-        </div>
-
+        <h2>Login</h2>
         <form id="loginForm" novalidate>
-
             <div class="input-group">
-                <label for="nome">♡ Nome do tutor</label>
-                <input
-                    type="text"
-                    id="nome"
-                    name="nome"
-                    placeholder="Digite seu nome"
-                    required
-                >
+                <label>E-mail</label>
+                <input id="email" type="email" placeholder="seu@email.com" required>
             </div>
-
             <div class="input-group">
-                <label for="email">♡ E-mail</label>
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="seuemail@exemplo.com"
-                    required
-                >
+                <label>Senha</label>
+                <input id="senha" type="password" placeholder="Digite a sua senha" required>
             </div>
-
-            <div class="input-group">
-                <label for="telefone">♡ Telefone</label>
-                <input
-                    type="tel"
-                    id="telefone"
-                    name="telefone"
-                    placeholder="(00) 00000-0000"
-                    required
-                >
+            <div>
+                <button class="btn-submit" type="submit">Entrar</button>
             </div>
-
-            <div class="input-group">
-                <label for="pet">♡ Nome do seu pet</label>
-                <input
-                    type="text"
-                    id="pet"
-                    name="pet"
-                    placeholder="Como ele(a) se chama?"
-                    required
-                >
-            </div>
-
-            <div class="input-group">
-                <label for="tipoPet">♡ Seu pet é um...</label>
-
-                <select id="tipoPet" name="tipoPet" required>
-                    <option value="">Escolha uma opção</option>
-                    <option value="cachorro">🐶 Cachorrinho</option>
-                    <option value="gato">🐱 Gatinho</option>
-                    <option value="passaro">🕊️ Passarinho</option>
-                    <option value="outro">🦢 Outro</option>
-                </select>
-            </div>
-
-            <div class="input-group">
-                <label for="servico">♡ Escolha um mimo</label>
-
-                <select id="servico" name="servico" required>
-                    <option value="">Selecione um serviço</option>
-                    <option value="banho">🫧 Banho delicado</option>
-                    <option value="tosa">✂️ Tosa</option>
-                    <option value="banho-tosa">🎀 Banho & Tosa</option>
-                    <option value="consulta">🩺 Consulta</option>
-                    <option value="hospedagem">🏡 Hospedagem</option>
-                </select>
-            </div>
-
-            <button type="submit" class="btn-submit">
-                Entrar na boutique 🎀
-            </button>
-
         </form>
-
-        <p class="footer-text">
-            ♡ feito com amor para pets especiais ♡
-        </p>
-
     </div>
-
 </body>
-
 </html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de veterinário</title>
+</head>
+<body>
+   <form id="cadastro-vet">
+    <div class="input-group">
+    <label>Nome</label>
+    <input type="text" name="name" id="nome" placeholder="Digite o nome"> 
+    </div>
+
+    <div class="input-group">
+        <label>CFMV</label>
+        <input type="text" name="CFMV" id="cfmv" placeholder="Digite o CFMV">
+    </div>
+
+    <div class="input-group">
+        <label>Especialidade</label>
+        <input type="text" name="especialidade" id="especialidade" placeholder="Digite a especialidade">
+
+     </div>
+     <button type="button" class= "btn-submit">salvar </button>
+    </form>
+
+    <script>
+        const vetForm = document.getElementById("cadastro-vet");
+        vetForm.addEventListener('submit', async (e))=>{
+            e.preventDefault();
+
+            const vetData = {
+                nome: document.getElementById("nome").value.trim (),
+                cfmv: parseInt(document.getElementById
+            }
+
+        }
+<body>
+
+</html>
